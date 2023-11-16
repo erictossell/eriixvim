@@ -40,5 +40,11 @@
         # Lets you run `nix run .` to start nixvim
         default = nvim;
       };
+
+      templates.default = {
+	path = ./.;
+	description = "Eriim's nixvim flake.";
+      };
+
     });
 }
