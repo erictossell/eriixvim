@@ -10,7 +10,9 @@
   ];
   extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
   colorscheme = "duskfox";
-
+  number = true;
+  relativenumber = true; 
+  
   plugins = {
     indent-blankline.enable = true;
     treesitter.enable = true;
@@ -24,8 +26,8 @@
 	action = "<cmd>Telescope livegrep<CR>";
       }
     ];
-    options = {
-      number = true;
-      relativenumber = true;
-    };
+    
+      
+
+    
 }
