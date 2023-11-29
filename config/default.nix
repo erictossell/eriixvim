@@ -1,6 +1,6 @@
 { self, pkgs, ... }: {
   # Import all your configuration modules here
-    options = {
+    config.options = {
 
 imports = [
     ./alpha.nix
