@@ -1,6 +1,8 @@
 { self, pkgs, ... }: {
   # Import all your configuration modules here
-  imports = [
+    options = {
+
+imports = [
     ./alpha.nix
     ./git.nix
     ./lsp.nix
@@ -8,7 +10,7 @@
     ./neo-tree.nix
     ./telescope.nix
   ];  
-  options = {
+
     extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
     colorscheme = "duskfox";
     
