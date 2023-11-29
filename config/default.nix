@@ -10,8 +10,8 @@
   ];
   extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
   colorscheme = "duskfox";
-  #number = true;
-  #relativenumber = true; 
+  number = true;
+  relativenumber = true; 
   
   plugins = {
     indent-blankline.enable = true;
