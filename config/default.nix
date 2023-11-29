@@ -1,53 +1,44 @@
 { self, pkgs, ... }: {
   # Import all your configuration modules here
-    config.options = {
-
-imports = [
+  imports = [
     ./alpha.nix
     ./git.nix
     ./lsp.nix
     ./lualine.nix
     ./neo-tree.nix
     ./telescope.nix
-  ];  
+  ];
+  extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
+  colorscheme = "duskfox";
+  #number = true;
+  #relativenumber = true; 
+  
+  plugins = {
+    indent-blankline.enable = true;
+    treesitter.enable = true;
+  };
 
-    extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
-    colorscheme = "duskfox";
-    
-    number = true;
-    relativenumber = true; 
-    plugins = {
-      indent-blankline.enable = true;
-      treesitter.enable = true;
-    };
-
-    globals.mapleader = " ";
-    keymaps = [
-      
-      {
+  globals.mapleader = " ";
+  keymaps = [
+    {
       key = "<leader>a";
       options.silent = true;
       action = "<cmd>Alpha<CR>";
-      }
-      
-      {
+    }
+    {
       key = "<leader>m";
       options.silent = true;
       action = "<cmd>Telescope live_grep<CR>";
-      }
-      
-      {
+    }
+    {
       key = "<leader>f";
       options.silent = true;
       action = "<cmd>Telescope find_files<CR>";
-      }
-      
-      {
+    }
+    {
       key = "<leader>b";
       options.silent = true;
       action = "<cmd>Telescope buffers<CR>";
-      }
-    ]; 
-  };
-    
+    }
+  ];   
 }
