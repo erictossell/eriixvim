@@ -9,12 +9,17 @@
     ./neo-tree.nix
     ./telescope.nix
   ];
-  extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
-  colorscheme = "duskfox";
-    
-  plugins = {
-    indent-blankline.enable = true;
-    treesitter.enable = true;
+  config = {  
+    extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
+    colorscheme = "duskfox";
+                    
+    plugins = {
+      indent-blankline.enable = true;
+      treesitter.enable = true;
+    };
+    options = {
+      number = true;
+      relativenumber = true;
+    };
   };
-   
 }
