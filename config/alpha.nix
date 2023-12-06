@@ -47,10 +47,15 @@
           {
             command = ":Telescope oldfiles<CR>";
             desc = "  > Find Recent" ;
+            shortcut = "t";
+          }
+	  {
+            command = ":cd $HOME/repos | Telescope find_files<CR>";
+            desc = " > Repos";
             shortcut = "r";
           }
           {
-            command = ":cd $HOME/Docs | Telescope find_files<CR>";
+            command = ":cd $HOME/docs | Telescope find_files<CR>";
             desc = "󱔗  > Docs";
             shortcut = "k";
           }
