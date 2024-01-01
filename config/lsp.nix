@@ -2,7 +2,6 @@
   plugins = {
     lint = {
       enable = true;
-      additionalTextEdits = true;
     };
     lsp-format.enable = true;
     lsp = {
@@ -19,7 +18,11 @@
         lua-ls.enable = true;
         nixd.enable = true;
         ruff-lsp.enable = true;
-	rust-analyzer.enable = true;
+	rust-analyzer = {
+	  enable = true;
+	  installCargo = true;
+	  installRustc = true;
+	};
         terraformls.enable = true;
       };
     };
