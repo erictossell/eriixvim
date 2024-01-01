@@ -1,5 +1,9 @@
 { 
   plugins = {
+    lint = {
+      enable = true;
+      additionalTextEdits = true;
+    };
     lsp-format.enable = true;
     lsp = {
       enable = true;
