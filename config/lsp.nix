@@ -1,4 +1,4 @@
-{ 
+{
   plugins = {
     lint = {
       enable = true;
