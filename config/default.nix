@@ -10,10 +10,10 @@
     ./neo-tree.nix
     ./telescope.nix
   ];
-  config = {  
+  config = {
     extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
     colorscheme = "duskfox";
-                    
+
     plugins = {
       indent-blankline.enable = true;
       treesitter.enable = true;

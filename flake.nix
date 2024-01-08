@@ -6,18 +6,20 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = {
-    self,
-    nixpkgs,
-    nixvim,
-    flake-utils,
-    ...
-  } @ inputs: let
-    config = import ./config; # import the module directly
-  in
-    flake-utils.lib.eachDefaultSystem (system: let
+  outputs =
+    { self
+    , nixpkgs
+    , nixvim
+    , flake-utils
+    , ...
+    } @ inputs:
+    let
+      config = import ./config; # import the module directly
+    in
+    flake-utils.lib.eachDefaultSystem (system:
+    let
       nixvimLib = nixvim.lib.${system};
-      pkgs = import nixpkgs {inherit system;};
+      pkgs = import nixpkgs { inherit system; };
       nixvim' = nixvim.legacyPackages.${system};
       nvim = nixvim'.makeNixvimWithModule {
         inherit pkgs;
@@ -27,7 +29,8 @@
           inherit self;
         };
       };
-    in {
+    in
+    {
       checks = {
         # Run `nix flake check .` to verify that your config is not broken
         default = nixvimLib.check.mkTestDerivationFromNvim {
@@ -42,9 +45,10 @@
       };
 
       templates.default = {
-	path = ./.;
-	description = "Eriim's nixvim flake.";
+        path = ./.;
+        description = "Eriim's nixvim flake.";
       };
 
+      formatter = pkgs.nixpkgs-fmt;
     });
 }
