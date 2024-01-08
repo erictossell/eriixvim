@@ -1,4 +1,7 @@
 # Eriixvim - An uninspiredly named Nixvim Flake
+
+Available to try with `nix run github:erictossell/eriixvim`.
+
 I thought I might actually write some code with this configuration but so far all I've written is `nix`. That counts I guess right?
 
 I basically just followed the documentation available in the [README.md](https://github.com/nix-community/nixvim). 
