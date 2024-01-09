@@ -2,6 +2,7 @@
   # Import all your configuration modules here
   imports = [
     ./alpha.nix
+    ./auto.nix
     ./copilot.nix
     ./git.nix
     ./keymaps.nix
