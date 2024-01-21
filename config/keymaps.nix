@@ -12,6 +12,11 @@
       action = "<cmd>Telescope live_grep<CR>";
     }
     {
+      key = "<leader>n";
+      options.silent = true;
+      action = "<cmd>Neotree toggle<CR>";
+    }
+    {
       key = "<leader>f";
       options.silent = true;
       action = "<cmd>Telescope find_files<CR>";

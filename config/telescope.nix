@@ -1,3 +1,7 @@
 {
-  plugins.telescope.enable = true;
+  plugins.telescope = {
+    enable = true;
+    extensions.file_browser.enable = true;
+
+  };
 }
