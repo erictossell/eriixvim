@@ -26,7 +26,7 @@ jobs:
       run: statix fix
 
     - name: Run Nix Format
-      run: nix fmt
+      run: nixpkgs-fmt .
 
     - name: Nix Flake Checker
     # You may pin to the exact commit or the version.
