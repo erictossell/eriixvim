@@ -56,6 +56,7 @@
           devShells.default = pkgs.mkShell {
             nativeBuildInputs = with pkgs; [ nixpkgs-fmt ];
           };
+          formatter = pkgs.nixpkgs-fmt;
         };
     };
 }
