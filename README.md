@@ -1,7 +1,4 @@
 # Eriixvim - An uninspiredly named Nixvim Flake
-
-Available to try with `nix run github:erictossell/eriixvim`.
-
 I thought I might actually write some code with this configuration but so far all I've written is `nix`. That counts I guess right?
 
 I basically just followed the documentation available in the [README.md](https://github.com/nix-community/nixvim). 
@@ -14,7 +11,7 @@ I gave it some test runs and the result is what you see. Most of my vim experien
 
 To start configuring, just add or modify the nix files in `./config`.
 If you add a new configuration file, remember to add it to the
-    [`config/default.nix`](./config/default.nix) file
+[`config/default.nix`](./config/default.nix) file
 
 ## Testing your new configuration
 
@@ -23,3 +20,4 @@ To test your configuration simply run the following command
 ```
 nix run .
 ```
+
