@@ -1,6 +1,6 @@
 name: Nix Flake Check
 
-on: [pull_request]
+on: [push, pull_request]
 
 jobs:
   update:
