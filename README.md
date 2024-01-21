@@ -14,7 +14,7 @@ I gave it some test runs and the result is what you see. Most of my vim experien
 
 To start configuring, just add or modify the nix files in `./config`.
 If you add a new configuration file, remember to add it to the
-[`config/default.nix`](./config/default.nix) file
+    [`config/default.nix`](./config/default.nix) file
 
 ## Testing your new configuration
 

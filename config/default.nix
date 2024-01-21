@@ -2,13 +2,15 @@
   # Import all your configuration modules here
   imports = [
     ./alpha.nix
-    ./auto.nix
+    #./auto.nix
     ./copilot.nix
     ./git.nix
+    ./goyo.nix
     ./keymaps.nix
     ./lsp.nix
     ./lualine.nix
     ./neo-tree.nix
+    ./obsidian.nix
     ./telescope.nix
   ];
   config = {
