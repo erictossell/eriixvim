@@ -27,7 +27,7 @@
           "      \\__\\/         \\__\\/                                 \\__\\/     "
           "			               "
 
-          "			eriim.dev | github.com/eriim                 "
+          "			eriim.dev | github.com/erictossell                 "
 
 
         ];
