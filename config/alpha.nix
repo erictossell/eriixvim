@@ -85,7 +85,7 @@
         on_press.raw = "require('telescope.builtin').find_files";
         opts = {
           # hl = "comment";
-          keymap = [ "n" "t" ":Telescope find_files <CR>" { noremap = true; silent = true; nowait = true; } ];
+          keymap = [ "n" "t" ":Telescope oldfiles <CR>" { noremap = true; silent = true; nowait = true; } ];
           shortcut = "t";
 
           position = "center";
