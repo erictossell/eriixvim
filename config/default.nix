@@ -10,7 +10,7 @@
     ./lsp.nix
     ./lualine.nix
     ./neo-tree.nix
-    ./obsidian.nix
+    #./obsidian.nix
     ./telescope.nix
   ];
   config = {
