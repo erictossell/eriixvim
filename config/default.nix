@@ -9,8 +9,10 @@
     ./keymaps.nix
     ./lsp.nix
     ./lualine.nix
+    ./markdown.nix
     ./neo-tree.nix
     #./obsidian.nix
+
     ./telescope.nix
   ];
   config = {
