@@ -12,8 +12,8 @@
     ./markdown.nix
     ./neo-tree.nix
     #./obsidian.nix
-
     ./telescope.nix
+    ./toggle-term.nix
   ];
   config = {
     extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
