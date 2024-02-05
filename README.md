@@ -1,6 +1,7 @@
 # Eriixvim - An uninspiredly named Nixvim Flake
 
 [![Nix Flake Check](https://github.com/erictossell/eriixvim/actions/workflows/update.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/update.yml)
+[![Flake Info](https://github.com/erictossell/eriixvim/actions/workflows/flake-info.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-info.yml)
 
 I thought I might actually write some code with this configuration but so far all I've written is `nix`. That counts I guess right?
 
