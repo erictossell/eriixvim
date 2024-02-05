@@ -5,7 +5,7 @@ on:
     - cron: '0 0 * * *'
 
 jobs:
-  update:
+  flake-update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
