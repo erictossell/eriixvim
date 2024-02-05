@@ -1,0 +1,29 @@
+name: Flake Info
+
+on: 
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Flake Update"]
+    types:
+      - completed
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install Nix
+      uses: cachix/install-nix-action@v23
+      with: 
+        nix_path: nixpkgs=channel:nixos-unstable
+
+    - name: Readme.py
+      run: nix run github:erictossell/readme-py -- -a erictossell -d -l -fs -fi -hmd header.md -o FLAKE-INFO.md
+
+    - name: Commit and push
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Flake info update"
