@@ -35,6 +35,5 @@ jobs:
     - name: Run Nix Format
       run: nixpkgs-fmt .
 
-
     - name: Flake update
       run: nix flake check
