@@ -25,10 +25,7 @@ jobs:
     
     - name: Install Nix Linting and Formatting Tools
       run: nix-env -i statix nixpkgs-fmt -f '<nixpkgs>'
-
-    - name: Flake update
-      run: nix flake update
-
+ 
     - name: Run Statix Lint
       run: statix fix
 
