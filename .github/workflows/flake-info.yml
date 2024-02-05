@@ -3,12 +3,9 @@ name: Flake Info
 on: 
   workflow_dispatch:
   workflow_run:
-    workflows: ["Flake Update"]
+    workflows: ["Flake Check"]
     types:
       - completed
-  push:
-    branches:
-      - main
 
 jobs:
   flake-info:
