@@ -21,7 +21,7 @@ jobs:
     - name: Flake Update
       run: nix flake update
 
-    - name: Manaul Flake check
+    - name: Manual Flake check
       run: nix flake check
 
     - name: Nix Flake Checker
