@@ -1,8 +1,9 @@
 # Eriixvim - An uninspiredly named Nixvim Flake
 
-[![Flake Check](https://github.com/erictossell/eriixvim/actions/workflows/flake-check.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-check.yml)
-[![Nix Flake Check](https://github.com/erictossell/eriixvim/actions/workflows/update.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/update.yml)
 [![Flake Info](https://github.com/erictossell/eriixvim/actions/workflows/flake-info.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-info.yml)
+[![Flake Check](https://github.com/erictossell/eriixvim/actions/workflows/flake-check.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-check.yml)
+[![Flake Update](https://github.com/erictossell/eriixvim/actions/workflows/flake-update.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-update.yml)
+
 
 I thought I might actually write some code with this configuration but so far all I've written is `nix`. That counts I guess right?
 
