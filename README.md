@@ -1,5 +1,6 @@
 # Eriixvim - An uninspiredly named Nixvim Flake
 
+[![Flake Check](https://github.com/erictossell/eriixvim/actions/workflows/flake-check.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-check.yml)
 [![Nix Flake Check](https://github.com/erictossell/eriixvim/actions/workflows/update.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/update.yml)
 [![Flake Info](https://github.com/erictossell/eriixvim/actions/workflows/flake-info.yml/badge.svg?branch=main)](https://github.com/erictossell/eriixvim/actions/workflows/flake-info.yml)
 
