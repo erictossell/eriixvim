@@ -8,15 +8,15 @@
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixvim/eriixvim?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=2c739f71b5f4b94b114475b26d1b42e0633e8a11&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=cf8d12f2f0ab33dd7d9a3406aed020a45dbac37d&shallow=1
 Description:   A nixvim configuration, named appropriately.
-Path:          /nix/store/9xk6vz24icmxs2zmc4cbgjzl8vw1inq7-source
-Revision:      2c739f71b5f4b94b114475b26d1b42e0633e8a11
-Last modified: 2024-02-08 00:19:37
+Path:          /nix/store/s317gmvg4gdmnqi79qagn1ngp0hjrfya-source
+Revision:      cf8d12f2f0ab33dd7d9a3406aed020a45dbac37d
+Last modified: 2024-02-09 00:19:27
 Inputs:
 ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
 │   └───nixpkgs-lib: github:NixOS/nixpkgs/97b17f32362e475016f942bbdfda4a4a72a8a652?dir=lib
-├───nixpkgs: github:nixos/nixpkgs/faf912b086576fd1a15fca610166c98d47bc667e
+├───nixpkgs: github:nixos/nixpkgs/f8e2ebd66d097614d51a56a755450d4ae1632df1
 └───nixvim: github:nix-community/nixvim/ec07263b1693ebbd74080b1e21d9b88ae7b74d18
     ├───flake-parts: github:hercules-ci/flake-parts/b253292d9c0a5ead9bc98c4e9a26c6312e27d69f
     │   └───nixpkgs-lib follows input 'nixvim/nixpkgs'
@@ -39,7 +39,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=2c739f71b5f4b94b114475b26d1b42e0633e8a11&shallow=1
+git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=cf8d12f2f0ab33dd7d9a3406aed020a45dbac37d&shallow=1
 ├───checks
 │   ├───aarch64-darwin
 │   │   └───default: derivation 'A-nixvim-configuration'
