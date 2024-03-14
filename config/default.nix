@@ -2,6 +2,7 @@
   # Import all your configuration modules here
   imports = [
     ./alpha.nix
+    ./cmp.nix
     ./copilot.nix
     ./git.nix
     ./goyo.nix
@@ -14,13 +15,13 @@
     ./toggle-term.nix
   ];
   config = {
-    extraPlugins = [ 
+    extraPlugins = [
       pkgs.vimPlugins.nightfox-nvim
       pkgs.vimPlugins.kanagawa-nvim
       pkgs.vimPlugins.oxocarbon-nvim
       pkgs.vimPlugins.nightfly
     ];
-    colorscheme = "oxocarbon";
+    colorscheme = "kanagawa";
     clipboard.providers.wl-copy.enable = true;
     plugins = {
       indent-blankline.enable = true;

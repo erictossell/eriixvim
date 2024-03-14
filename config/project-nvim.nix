@@ -1,3 +1,1 @@
-{
-  plugins.project-nvim.enable = true;
-}
+{ plugins.project-nvim.enable = true; }

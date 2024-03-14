@@ -1,7 +1,9 @@
 {
   plugins.markdown-preview = {
     enable = true;
-    autoStart = true;
-    browser = "firefox";
+    settings = {
+      autoStart = true;
+      browser = "firefox";
+    };
   };
 }

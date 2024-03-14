@@ -29,7 +29,6 @@
 
           "			eriim.dev | github.com/erictossell                 "
 
-
         ];
       }
       {
@@ -42,7 +41,16 @@
         on_press.raw = "require('telescope.builtin').find_files";
         opts = {
           # hl = "comment";
-          keymap = [ "n" "e" ":Telescope find_files <CR>" { noremap = true; silent = true; nowait = true; } ];
+          keymap = [
+            "n"
+            "e"
+            ":Telescope find_files <CR>"
+            {
+              noremap = true;
+              silent = true;
+              nowait = true;
+            }
+          ];
           shortcut = "e";
 
           position = "center";
@@ -52,7 +60,6 @@
           hl_shortcut = "Keyword";
         };
       }
-
 
       {
         type = "padding";
@@ -64,7 +71,16 @@
         on_press.raw = "require('telescope.builtin').find_files";
         opts = {
           # hl = "comment";
-          keymap = [ "n" "f" ":Telescope find_files <CR>" { noremap = true; silent = true; nowait = true; } ];
+          keymap = [
+            "n"
+            "f"
+            ":Telescope find_files <CR>"
+            {
+              noremap = true;
+              silent = true;
+              nowait = true;
+            }
+          ];
           shortcut = "f";
 
           position = "center";
@@ -85,7 +101,16 @@
         on_press.raw = "require('telescope.builtin').find_files";
         opts = {
           # hl = "comment";
-          keymap = [ "n" "t" ":Telescope oldfiles <CR>" { noremap = true; silent = true; nowait = true; } ];
+          keymap = [
+            "n"
+            "t"
+            ":Telescope oldfiles <CR>"
+            {
+              noremap = true;
+              silent = true;
+              nowait = true;
+            }
+          ];
           shortcut = "t";
 
           position = "center";
@@ -105,7 +130,16 @@
         on_press.raw = "require('telescope.builtin').find_files";
         opts = {
           # hl = "comment";
-          keymap = [ "n" "r" ":cd $HOME/repos | Telescope find_files<CR>" { noremap = true; silent = true; nowait = true; } ];
+          keymap = [
+            "n"
+            "r"
+            ":cd $HOME/repos | Telescope find_files<CR>"
+            {
+              noremap = true;
+              silent = true;
+              nowait = true;
+            }
+          ];
           shortcut = "r";
 
           position = "center";
@@ -125,7 +159,16 @@
         on_press.raw = "require('telescope.builtin').find_files";
         opts = {
           # hl = "comment";
-          keymap = [ "n" "q" ":qa<CR>" { noremap = true; silent = true; nowait = true; } ];
+          keymap = [
+            "n"
+            "q"
+            ":qa<CR>"
+            {
+              noremap = true;
+              silent = true;
+              nowait = true;
+            }
+          ];
           shortcut = "q";
 
           position = "center";
@@ -135,22 +178,6 @@
           hl_shortcut = "Keyword";
         };
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       # {
       #   type = "group";

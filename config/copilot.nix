@@ -4,8 +4,8 @@
     #copilot-cmp.enable = true;
     copilot-vim = {
       enable = true;
-      filetypes = {
-        "*" = true;
+      settings = {
+        filetypes = { "*" = true; };
       };
     };
   };
