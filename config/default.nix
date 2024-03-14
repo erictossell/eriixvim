@@ -2,7 +2,6 @@
   # Import all your configuration modules here
   imports = [
     ./alpha.nix
-    #./auto.nix
     ./copilot.nix
     ./git.nix
     ./goyo.nix
@@ -11,14 +10,18 @@
     ./lualine.nix
     ./markdown.nix
     ./neo-tree.nix
-    #./obsidian.nix
     ./telescope.nix
     ./toggle-term.nix
   ];
   config = {
-    extraPlugins = [ pkgs.vimPlugins.nightfox-nvim ];
-    colorscheme = "duskfox";
-
+    extraPlugins = [ 
+      pkgs.vimPlugins.nightfox-nvim
+      pkgs.vimPlugins.kanagawa-nvim
+      pkgs.vimPlugins.oxocarbon-nvim
+      pkgs.vimPlugins.nightfly
+    ];
+    colorscheme = "oxocarbon";
+    clipboard.providers.wl-copy.enable = true;
     plugins = {
       indent-blankline.enable = true;
       treesitter.enable = true;
