@@ -1,4 +1,4 @@
-{ self, pkgs, ... }: {
+{ pkgs, ... }: {
   # Import all your configuration modules here
   imports = [
     ./alpha.nix
@@ -27,7 +27,7 @@
       indent-blankline.enable = true;
       treesitter.enable = true;
     };
-    options = {
+    opts = {
       number = true;
       relativenumber = true;
     };
