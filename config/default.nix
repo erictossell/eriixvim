@@ -14,6 +14,7 @@
     ./telescope.nix
     ./toggle-term.nix
   ];
+
   config = {
     extraPlugins = [
       pkgs.vimPlugins.nightfox-nvim

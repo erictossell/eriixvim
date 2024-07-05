@@ -10,6 +10,7 @@
   outputs = {
     nixvim,
     flake-parts,
+    nixpkgs,
     ...
   } @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} {
@@ -37,6 +38,11 @@
         };
         nvim = nixvim'.makeNixvimWithModule nixvimModule;
       in {
+
+      	_module.args.pkgs = import nixpkgs {
+          inherit system;
+          config.allowUnfree = true;
+        };
         checks = {
           # Run `nix flake check .` to verify that your config is not broken
           default = nixvimLib.check.mkTestDerivationFromNixvimModule nixvimModule;
