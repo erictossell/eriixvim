@@ -21,7 +21,7 @@
       pkgs.vimPlugins.oxocarbon-nvim
       pkgs.vimPlugins.nightfly
     ];
-    colorscheme = "nightfly";
+    colorscheme = "nightfox";
     clipboard.providers.wl-copy.enable = true;
     plugins = {
       indent-blankline.enable = true;
