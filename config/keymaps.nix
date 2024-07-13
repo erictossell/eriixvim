@@ -26,5 +26,10 @@
       options.silent = true;
       action = "<cmd>Telescope buffers<CR>";
     }
+    {
+      key = "<leader>t";
+      options.silent = true;
+      action = "<cmd>ToggleTerm<CR>";
+    }
   ];
 }

@@ -11,7 +11,7 @@
     ./lspkind.nix
     ./lualine.nix
     ./luasnip.nix
-    ./markdown.nix
+    #./markdown.nix
     ./neo-tree.nix
     ./telescope.nix
     ./toggle-term.nix
@@ -36,3 +36,4 @@
     };
   };
 }
+
