@@ -8,6 +8,7 @@
     ./goyo.nix
     ./keymaps.nix
     ./lsp.nix
+    ./lspkind.nix
     ./lualine.nix
     ./luasnip.nix
     ./markdown.nix
