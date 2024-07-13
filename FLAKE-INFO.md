@@ -8,17 +8,17 @@
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixvim/eriixvim?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=ac820b4b75e4f71b6dc8e2811fc5edbb6c417b57&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=a94ec39e05c54b978935ba2b3ef1709bb0bd5651&shallow=1
 Description:   A nixvim configuration for Eriim.
-Path:          /nix/store/d8j30b1fvav0230rbvga78spp6wl8w4j-source
-Revision:      ac820b4b75e4f71b6dc8e2811fc5edbb6c417b57
+Path:          /nix/store/za648jp11apzmwkidy2y7fnf19z1xhsg-source
+Revision:      a94ec39e05c54b978935ba2b3ef1709bb0bd5651
 Revisions:     1
-Last modified: 2024-07-13 20:23:12
+Last modified: 2024-07-13 20:29:33
 Inputs:
 ├───flake-parts: github:hercules-ci/flake-parts/9227223f6d922fee3c7b190b2cc238a99527bbb7 (2024-07-03 08:15:18)
 │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/5daf0514482af3f97abaefc78a6606365c9108e2.tar.gz?narHash=sha256-Fm2rDDs86sHy0/1jxTOKB1118Q0O3Uc7EC0iXvXKpbI%3D (2024-07-01 23:35:45)
-├───nixpkgs: github:nixos/nixpkgs/9f4128e00b0ae8ec65918efeba59db998750ead6 (2024-07-03 18:27:49)
-└───nixvim: github:nix-community/nixvim/92e9f5466dcfd51e8e2e7627e992c1c9d5fc6fd6 (2024-07-04 21:00:56)
+├───nixpkgs: github:nixos/nixpkgs/7e7c39ea35c5cdd002cd4588b03a3fb9ece6fad9 (2024-07-12 07:14:11)
+└───nixvim: github:nix-community/nixvim/06a44e9e8814ab13ea013e222637a497a50e96e4 (2024-07-13 19:20:51)
     ├───devshell: github:numtide/devshell/1ebbe68d57457c8cae98145410b164b5477761f4 (2024-06-03 10:02:49)
     │   ├───flake-utils: github:numtide/flake-utils/4022d587cbbfd70fe950c1e2083a02621806a725 (2023-12-04 08:58:27)
     │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
@@ -27,7 +27,7 @@ Inputs:
     ├───flake-parts: github:hercules-ci/flake-parts/4e3583423212f9303aa1a6337f8dffb415920e4f (2024-07-01 23:44:14)
     │   └───nixpkgs-lib follows input 'nixvim/nixpkgs'
     ├───git-hooks: github:cachix/git-hooks.nix/0ff4381bbb8f7a52ca4a851660fc7a437a4c6e07 (2024-06-24 20:12:25)
-    │   ├───flake-compat: github:edolstra/flake-compat/0f9255e01c2351cc7d116c072cb317785dd33b33 (2023-10-04 13:37:54)
+    │   ├───flake-compat follows input 'nixvim/flake-compat'
     │   ├───gitignore: github:hercules-ci/gitignore.nix/637db329424fd7e46cf4185293b9cc8c88c95394 (2024-02-28 02:28:52)
     │   │   └───nixpkgs follows input 'nixvim/git-hooks/nixpkgs'
     │   ├───nixpkgs follows input 'nixvim/nixpkgs'
@@ -45,7 +45,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=ac820b4b75e4f71b6dc8e2811fc5edbb6c417b57&shallow=1
+git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=a94ec39e05c54b978935ba2b3ef1709bb0bd5651&shallow=1
 ├───checks
 │   ├───aarch64-darwin
 │   │   └───default: derivation 'nixvim-check'
