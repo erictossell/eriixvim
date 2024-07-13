@@ -9,6 +9,7 @@
     ./keymaps.nix
     ./lsp.nix
     ./lualine.nix
+    ./luasnip.nix
     ./markdown.nix
     ./neo-tree.nix
     ./telescope.nix

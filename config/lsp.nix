@@ -15,7 +15,7 @@
         jsonls.enable = true;
         lua-ls.enable = true;
       #  nixd.enable = true;
-        nil_ls.enable = true;
+        nil-ls.enable = true;
         ruff-lsp.enable = true;
         rust-analyzer = {
           enable = true;
