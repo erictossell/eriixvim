@@ -26,6 +26,7 @@
     ];
     colorscheme = "nightfox";
     clipboard.providers.wl-copy.enable = true;
+    extraConfigVim = "set foldlevel=10";
     plugins = {
       indent-blankline.enable = true;
       treesitter.enable = true;
