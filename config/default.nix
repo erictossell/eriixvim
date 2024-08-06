@@ -24,7 +24,7 @@
       pkgs.vimPlugins.oxocarbon-nvim
       pkgs.vimPlugins.nightfly
     ];
-    colorscheme = "terafox";
+    colorscheme = "nightfox";
     clipboard.providers.wl-copy.enable = true;
     extraConfigVim = "set foldlevel=10";
     plugins = {
