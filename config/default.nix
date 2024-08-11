@@ -30,6 +30,7 @@
     plugins = {
       indent-blankline.enable = true;
       treesitter.enable = true;
+      transparent.enable = true;
     };
     opts = {
       number = true;
