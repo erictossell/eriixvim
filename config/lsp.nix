@@ -13,11 +13,11 @@
         gopls.enable = true;
         html.enable = true;
         jsonls.enable = true;
-        lua-ls.enable = true;
+        lua_ls.enable = true;
       #  nixd.enable = true;
-        nil-ls.enable = true;
-        ruff-lsp.enable = true;
-        rust-analyzer = {
+        nil_ls.enable = true;
+        ruff_lsp.enable = true;
+        rust_analyzer = {
           enable = true;
           installCargo = true;
           installRustc = true;
