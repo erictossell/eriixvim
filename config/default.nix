@@ -31,6 +31,7 @@
       indent-blankline.enable = true;
       treesitter.enable = true;
       transparent.enable = true;
+      yazi.enable = true;
     };
     opts = {
       number = true;
