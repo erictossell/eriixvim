@@ -16,7 +16,7 @@
         lua_ls.enable = true;
       #  nixd.enable = true;
         nil_ls.enable = true;
-        ruff_lsp.enable = true;
+        ruff.enable = true;
         rust_analyzer = {
           enable = true;
           installCargo = true;
