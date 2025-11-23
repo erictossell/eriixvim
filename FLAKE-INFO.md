@@ -8,34 +8,35 @@
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/eriixvim/eriixvim?shallow=1
-Locked URL:    git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=43c1e454d946f2dc94f710a3adce7b0ccf51337e&shallow=1
+Locked URL:    git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=ba5c44cc9352a672290952bce5ca06eb44c88a9e&shallow=1
 Description:   A nixvim configuration for Eriim.
-Path:          /nix/store/214nv265h338vzf4bamjzw9qbablw9z2-source
-Revision:      43c1e454d946f2dc94f710a3adce7b0ccf51337e
+Path:          /nix/store/svxhqch21qaqn31d7iqj0i8ajfa4yp38-source
+Revision:      ba5c44cc9352a672290952bce5ca06eb44c88a9e
 Revisions:     1
-Last modified: 2025-04-12 01:25:03
+Last modified: 2025-11-23 16:45:37
 Inputs:
-├───flake-parts: github:hercules-ci/flake-parts/c621e8422220273271f52058f618c94e405bb0f5 (2025-04-01 23:38:40)
-│   └───nixpkgs-lib: github:nix-community/nixpkgs.lib/e4822aea2a6d1cdd36653c134cacfd64c97ff4fa (2025-03-30 01:09:21)
-├───nixpkgs: github:nixos/nixpkgs/f675531bc7e6657c10a18b565cfebd8aa9e24c14 (2025-04-09 21:06:01)
-└───nixvim: github:nix-community/nixvim/e537d4a6b4c1c81f8b71dfd916fdf970d0d5c987 (2025-04-11 14:52:33)
-    ├───flake-parts: github:hercules-ci/flake-parts/c621e8422220273271f52058f618c94e405bb0f5 (2025-04-01 23:38:40)
+├───flake-parts: github:hercules-ci/flake-parts/2cccadc7357c0ba201788ae99c4dfa90728ef5e0 (2025-11-21 21:04:27)
+│   └───nixpkgs-lib: github:nix-community/nixpkgs.lib/719359f4562934ae99f5443f20aa06c2ffff91fc (2025-10-29 19:18:59)
+├───nixpkgs: github:nixos/nixpkgs/117cc7f94e8072499b0a7aa4c52084fa4e11cc9b (2025-11-20 22:45:58)
+└───nixvim: github:nix-community/nixvim/2606dc719488065e735ff0fc622d743566b21ad4 (2025-11-22 13:59:25)
+    ├───flake-parts: github:hercules-ci/flake-parts/2cccadc7357c0ba201788ae99c4dfa90728ef5e0 (2025-11-21 21:04:27)
     │   └───nixpkgs-lib follows input 'nixvim/nixpkgs'
-    ├───nixpkgs: github:NixOS/nixpkgs/6a39c6e495eefabc935d8ddf66aa45d85b85fa3f (2025-04-09 00:06:13)
-    └───nuschtosSearch: github:NuschtOS/search/56a49ffef2908dad1e9a8adef1f18802bc760962 (2025-04-03 12:27:03)
-        ├───flake-utils: github:numtide/flake-utils/11707dc2f618dd54ca8739b309ec4fc024de578b (2024-11-13 21:27:16)
-        │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-        ├───ixx: github:NuschtOS/ixx/9fd01aad037f345350eab2cd45e1946cc66da4eb (2024-10-26 15:53:28)
-        │   ├───flake-utils follows input 'nixvim/nuschtosSearch/flake-utils'
-        │   └───nixpkgs follows input 'nixvim/nuschtosSearch/nixpkgs'
-        └───nixpkgs follows input 'nixvim/nixpkgs'
+    ├───nixpkgs: github:NixOS/nixpkgs/a8d610af3f1a5fb71e23e08434d8d61a466fc942 (2025-11-20 06:07:48)
+    ├───nuschtosSearch: github:NuschtOS/search/e29de6db0cb3182e9aee75a3b1fd1919d995d85b (2025-10-29 09:40:56)
+    │   ├───flake-utils: github:numtide/flake-utils/11707dc2f618dd54ca8739b309ec4fc024de578b (2024-11-13 21:27:16)
+    │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
+    │   ├───ixx: github:NuschtOS/ixx/babfe85a876162c4acc9ab6fb4483df88fa1f281 (2025-08-10 21:16:21)
+    │   │   ├───flake-utils follows input 'nixvim/nuschtosSearch/flake-utils'
+    │   │   └───nixpkgs follows input 'nixvim/nuschtosSearch/nixpkgs'
+    │   └───nixpkgs follows input 'nixvim/nixpkgs'
+    └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
 
 ```
 
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=43c1e454d946f2dc94f710a3adce7b0ccf51337e&shallow=1
+git+file:///home/runner/work/eriixvim/eriixvim?ref=refs/heads/main&rev=ba5c44cc9352a672290952bce5ca06eb44c88a9e&shallow=1
 ├───checks
 │   ├───aarch64-darwin
 │   │   └───default: derivation 'nixvim-check'
