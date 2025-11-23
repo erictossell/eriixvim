@@ -5,10 +5,10 @@
     lsp = {
       enable = true;
       servers = {
-        ansiblels.enable = true;
-        astro.enable = true;
+        #ansiblels.enable = true;
+        #astro.enable = true;
         bashls.enable = true;
-        cssls.enable = true;
+        #cssls.enable = true;
         dockerls.enable = true;
         gopls.enable = true;
         html.enable = true;
@@ -22,7 +22,7 @@
           installCargo = true;
           installRustc = true;
         };
-        terraformls.enable = true;
+        #terraformls.enable = true;
       };
     };
   };
