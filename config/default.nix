@@ -1,4 +1,5 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   # Import all your configuration modules here
   imports = [
     ./alpha.nix
@@ -23,8 +24,9 @@
       pkgs.vimPlugins.kanagawa-nvim
       pkgs.vimPlugins.oxocarbon-nvim
       pkgs.vimPlugins.nightfly
+      pkgs.vimPlugins.everforest
     ];
-    colorscheme = "nightfox";
+    colorscheme = "everforest";
     clipboard.providers.wl-copy.enable = true;
     extraConfigVim = "set foldlevel=10";
     plugins = {
@@ -39,4 +41,3 @@
     };
   };
 }
-
